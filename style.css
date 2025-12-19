@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #0e0001;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:  rgb(186, 186, 233);
+    color: rgb(8, 0, 0);
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 60px 0;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style: none;
+}
+
+.job li {
+    font-size: 1.2em;
+}
+
+.project-card {
+    background-color: none;
+}
